@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "867444863625",
+    "project_id": "desaster-relief-v2",
+    "storage_bucket": "desaster-relief-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867444863625:android:575bbb2d2a157b03660c58",
+        "android_client_info": {
+          "package_name": "com.example.disaster_relief_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867444863625-2r5uaolpbu9biel28mv251nq3nv1np7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVxRqL4mHrh9d8QmDOw-3NAFwbuIjdDt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867444863625-2r5uaolpbu9biel28mv251nq3nv1np7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

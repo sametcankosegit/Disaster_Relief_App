@@ -2,10 +2,8 @@ import 'package:disaster_relief_v2/screens/graphic_page/earthquake_graphic.dart'
 import 'package:flutter/material.dart';
 import '../../models/user_models.dart';
 import '../../service.dart/user_service.dart';
-
 import '../../utils/magnitude_color.dart';
 import '../../widgets/drawer_header_widget/drawer.dart';
-import '../questions_screen.dart/question_main_screen.dart';
 
 class EarthquakePage extends StatefulWidget {
   const EarthquakePage({super.key});

@@ -1,7 +1,7 @@
+import 'package:disaster_relief_v2/widgets/bottom_navbar.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../../widgets/drawer_header_widget/contact_us_page/contact_us_page.dart';
-import '../bottom_navbar_pages/home_page.dart';
 
 class QuestionsPage extends StatefulWidget {
   @override
@@ -172,7 +172,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                                                 context,
                                                 MaterialPageRoute(
                                                   builder: (context) =>
-                                                      const HomePage(),
+                                                      const BottomNavBar(),
                                                 ),
                                               );
                                             },

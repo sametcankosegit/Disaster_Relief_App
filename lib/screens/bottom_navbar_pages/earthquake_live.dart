@@ -1,3 +1,4 @@
+import 'package:disaster_relief_v2/screens/graphic_page/earthquake_graphic.dart';
 import 'package:flutter/material.dart';
 import '../../models/user_models.dart';
 import '../../service.dart/user_service.dart';
@@ -36,11 +37,11 @@ class _EarthquakePageState extends State<EarthquakePage> {
       appBar: AppBar(
         actions: <Widget>[
           IconButton(
-            icon: const Icon(Icons.question_mark_rounded),
+            icon: const Icon(Icons.auto_graph),
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => QuestionsPage()),
+                MaterialPageRoute(builder: (context) => EarthquakeGraphic()),
               );
             },
           ),

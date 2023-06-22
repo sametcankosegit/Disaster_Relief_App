@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    getWeatherData('izmir');
+    getWeatherData('İstanbul');
     Firebase.initializeApp().then((_) {
       _emergencyCollection =
           FirebaseFirestore.instance.collection('Acil Durum');
@@ -30,8 +30,9 @@ class _HomePageState extends State<HomePage> {
 
   void sendEmergencyMessage() {
     _emergencyCollection.add({
-      'message': 'Emergency message',
+      'message': 'Acil Durum Mesajı',
       'timestamp': DateTime.now(),
+      'Şehir': '',
     }).then((_) {
       print('Acil Durum Mesajı Gönderildi');
     }).catchError((error) {

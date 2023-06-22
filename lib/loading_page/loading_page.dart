@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-
 import '../get_started/get_started_page.dart';
 
 class LoadingScreen extends StatefulWidget {

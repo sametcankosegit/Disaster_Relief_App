@@ -22,6 +22,9 @@ class LoginPage extends StatelessWidget {
       Navigator.of(_navigatorKey.currentContext!).pushAndRemoveUntil(
         MaterialPageRoute(builder: (context) => const BottomNavBar()),
         (Route<dynamic> route) => false,
+        //Bu kod parçası, mevcut sayfayı kapatıp, BottomNavBar adlı yeni bir sayfaya geçiş yapmayı sağlar ve diğer sayfaları kaldırır. 
+        //Böylece, kullanıcı yeni sayfaya yönlendirilirken, geri düğmesine basıldığında veya
+        //başka bir gezinme işlemi gerçekleştirildiğinde mevcut sayfaların birikmemesini sağlar.
       );
     } catch (e) {
       showDialog(
@@ -200,7 +203,7 @@ class LoginPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Kayıt olmadan devam etmek için?',
+                        'Kayıt olmadan devam etmek için',
                         style: TextStyle(color: Colors.grey[800]),
                       ),
                       const SizedBox(width: 4),

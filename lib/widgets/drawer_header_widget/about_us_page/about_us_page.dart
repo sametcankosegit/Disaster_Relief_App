@@ -70,7 +70,7 @@ class AboutUsPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   const Text(
-                    'Uygulamamızın amacı gerek halkımız bilinçlendirmek gerekse afet durumunda ve sonrasında yardım ulaştırmaktır.',
+                    'Uygulamamızın amacı gerek halkımızı bilinçlendirmek gerekse afet durumunda ve sonrasında yardım ulaştırmaktır.',
                     style: TextStyle(fontSize: 16),
                   ),
                   const SizedBox(height: 16),

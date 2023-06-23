@@ -169,10 +169,6 @@ class _ContactUsPageState extends State<ContactUsPage> {
                     ),
                     TextField(
                       keyboardType: TextInputType.emailAddress,
-                      inputFormatters: [
-                        FilteringTextInputFormatter.allow(
-                            RegExp('[a-zA-ZıIğüşöçİĞÜŞÖÇ ]')),
-                      ],
                       controller: _emailController,
                       maxLines: null,
                       decoration: InputDecoration(

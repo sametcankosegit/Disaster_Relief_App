@@ -82,8 +82,8 @@ class AboutUsPage extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      InkWell(
-                        onTap: () {
+                      GestureDetector(
+                        onDoubleTap: () {
                           const url =
                               'https://www.linkedin.com/in/samet-can-k%C3%B6se-772701156/';
                           launch(url);
@@ -95,8 +95,8 @@ class AboutUsPage extends StatelessWidget {
                           'CEO',
                         ),
                       ),
-                      InkWell(
-                        onTap: () {
+                      GestureDetector(
+                        onSecondaryTap: () {
                           const url =
                               'https://www.linkedin.com/in/williamhgates/';
                           launch(url);
@@ -120,8 +120,8 @@ class AboutUsPage extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      InkWell(
-                        onTap: () {
+                      GestureDetector(
+                        onLongPress: () {
                           const url =
                               'https://www.linkedin.com/in/tayyipkarakoyun/';
                           launch(url);
@@ -132,8 +132,8 @@ class AboutUsPage extends StatelessWidget {
                             'Tayyip Karakoyun',
                             'UI Tester'),
                       ),
-                      InkWell(
-                        onTap: () {
+                      GestureDetector(
+                        onLongPress: () {
                           const url =
                               'https://www.linkedin.com/in/batuhan-%C3%B6ztoprak-75879b20a/';
                           launch(url);

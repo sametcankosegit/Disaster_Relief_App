@@ -1,16 +1,5 @@
-# disaster_relief_v2
+# Disaster_relief_v2
 
-A new Flutter project.
+Hello everyone, I am sharing my application that I developed with Flutter with you. In this app, I have used various features of Flutter. I believe I have created an informative and useful application. The app includes features such as API integration, Sqflite, Provider, Firebase authentication, and Firebase Firestore.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+As for the purpose of the app, it aims to inform and provide assistance to users before and after disasters.
